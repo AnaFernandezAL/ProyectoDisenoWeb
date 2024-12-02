@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anhelos Lodge</title>
+    <link rel="stylesheet" href="css/principal.css" />
+    <link rel="stylesheet" href="css/fuentes.css" />
+    <link rel="stylesheet" href="css/scrollbar.css" />
+    <link rel="stylesheet" href="css/navbarFooter.css" />
+
+    <!--Bootstrap 5-->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!--Fuentes de google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Nunito:wght@200..1000&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-light p-0 sticky-top opacityScroll rounded-pill p-2"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img
+            src="Images/Logos/logo de Anhelosf.png"
+            alt="Logo"
+            style="height: 50px"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link text-black display-4 fs-5 me-5 fw-bold ibm-plex-sans-semibold"
+                href="index.html"
+                >Inicio</a
+              >
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle fw-bold text-black display-4 fs-5 me-2 ibm-plex-sans-regular"
+                href="#"
+                id="servicesDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Anhelos Lodge
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                <li>
+                  <a class="dropdown-item" href="servicios.html#grandes"
+                    >Ecopods Grandes y Familiares</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="servicios.html#minis"
+                    >Ecopods Pequeños</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="servicios.html"
+                    >Salón de eventos</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="servicios.html#pase-dia"
+                    >Laberinto</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-black display-4 fs-5 me-2 ibm-plex-sans-regular"
+                href="#"
+                id="servicesDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Servicios
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                <li>
+                  <a class="dropdown-item" href="servicios.html#Desayuno"
+                    >Desayuno</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="ConsultaTarifa.html"
+                    >Conoce tu Tarifa</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="servicios.html#decoraciones"
+                    >Decoraciones</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="Ofertas.html">Ofertas</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-black display-4 fs-5 me-2 ibm-plex-sans-regular"
+                href="#"
+                id="aboutDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Nosotros
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="aboutDropdown">
+                <li>
+                  <a class="dropdown-item" href="sobrenos.html#Contactame"
+                    >Contacto</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="sobrenos.html#comoLlegar"
+                    >Cómo llegar</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="sobrenos.html#Historia"
+                    >Nuestra Historia</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="galeria.html">Galería</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-black display-4 fs-5 ibm-plex-sans-regular"
+                href="Q&A.html"
+                >Q&A</a
+              >
+            </li>
+          </ul>
+          <div class="navbar-buttons ms-3">
+            <a
+              class="btn display-4 btn-reservar rounded-pill ibm-plex-sans-regular"
+              href="https://wa.me/50683189442"
+              >Reservar Ahora</a
+            >
+            
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div
+      id="carouselExample"
+      data-bs-ride="carousel"
+      data-bs-interval="6000"
+      class="carousel slide mb-5"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="3"
+          aria-label="Slide 4"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="Images/Carousel/1.png" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="Images/Carousel/2.png" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="Images/Carousel/3.png" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="Images/Carousel/4.png" class="d-block w-100" alt="..." />
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="section-info justify-content-center container rounded d-flex flex-wrap justify-content-center pb-3"
+    >
+      <div class="Img-Logo">
+        <img
+          src="Images/Logos/logo de Anhelosf.png"
+          alt=""
+          height="auto"
+          width="500"
+        />
+        <br />
+      </div>
+      <div class="w-100 d-flex flex-wrap justify-content-center">
+        <img src="Images/Logos/divisor.png" alt="" width="auto" height="10px" />
+        <br />
+        <br />
+      </div>
+      <div class="w-100 d-flex flex-wrap justify-content-center">
+        <div class="img-desc ibm-plex-sans-regular">
+          <p>
+            Escápate a <strong style="color: #134a20">Anhelos Lodge</strong>! Un
+            rincón lleno de paz y rodedado de naturaleza y encanto. Aquí podrás
+            encontrar el descanso perfecto que te merecés! estamos ubicados en
+            San Juanillo de Naranjo a 600 metros de la iglesia de San Juanillo.
+            ¿Que esperás para venir con esa persona que tanto querés?
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <section
+      data-bs-version="5.1"
+      class="gallery4 cid-utWCSG39Sn"
+      id="gallery-12-utWCSG39Sn"
+    >
+      <div class="container-fluid gallery-wrapper">
+        <div class="row justify-content-center">
+          <div class="col-12 content-head"></div>
+        </div>
+
+        <div class="image-wrapper">
+          <div class="image-container">
+            <div class="image-slide">
+              <img class="m-3" src="Images/Fotos/gal1.png" alt="Image 1" />
+              <img class="m-3" src="Images/Fotos/gal2.png" alt="Image 2" />
+              <img class="m-3" src="Images/Fotos/gal3.png" alt="Image 3" />
+              <img class="m-3" src="Images/Fotos/gal4.png" alt="Image 4" />
+              <img class="m-3" src="Images/Fotos/15.jpg" alt="Image 5" />
+              <img class="m-3" src="Images/Fotos/20.jpg" alt="Image 6" />
+              <img class="m-3" src="Images/Fotos/22.jpg" alt="Image 7" />
+              <img class="m-3" src="Images/Fotos/23.jpg" alt="Image 8" />
+              <img class="m-3" src="Images/Fotos/24.jpg" alt="Image 8" />
+              <img class="m-3" src="Images/Fotos/26.jpg" alt="Image 8" />
+              <img class="m-3" src="Images/Fotos/29.jpg" alt="Image 8" />
+              <img class="m-3" src="Images/Fotos/38.jpg" alt="Image 8" />
+              <img class="m-3" src="Images/Fotos/41.jpg" alt="Image 8" />
+              <img class="m-3" src="Images/Fotos/42.jpg" alt="Image 8" />
+              <img class="m-3" src="Images/Fotos/gal1.png" alt="Image 1" />
+              <img class="m-3" src="Images/Fotos/gal2.png" alt="Image 2" />
+              <img class="m-3" src="Images/Fotos/gal3.png" alt="Image 3" />
+              <img class="m-3" src="Images/Fotos/gal4.png" alt="Image 4" />
+              <img class="m-3" src="Images/Fotos/20.jpg" alt="Image 6" />
+              <img class="m-3" src="Images/Fotos/22.jpg" alt="Image 7" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container-custom mb-5">
+      <div
+        class="Servicios-container rounded bg-white container d-flex flex-wrap justify-content-center mb-5"
+      >
+        <div class="titulo-c">
+          <img src="Images/Logos/hojas.png" alt="" height="auto" width="40px" />
+          <h2 class="ibm-plex-sans-bold">Nuestros servicios</h2>
+          <p class="ibm-plex-sans-regular">
+            En Anhelos Lodge te brindamos no solamente hospedajes, ¡Mirá Todo lo
+            que te tenemos por ofrecer!
+          </p>
+          <a
+            href="#"
+            class="btn-servicio btn-transparent border border-3 border-white rounded-pill ibm-plex-sans-regular"
+            style="text-decoration: none; color: white"
+            >Más información</a
+          >
+        </div>
+
+        <div
+          class="rounded bg-white container d-flex flex-wrap justify-content-center pb-3 border"
+        >
+          <div class="Servicio border p-0 rounded d-inline-block m-1">
+            <div class="servicio-img position-relative text-center">
+              <img
+                src="Images/Logos/servicio1.png"
+                alt=""
+                class="rounded img-fluid"
+                width="auto"
+              />
+              <div
+                class="servicio-img-texto position-absolute top-50 start-50 translate-middle"
+              >
+                <h2 class="eb-garamond-extrabold mb-1">
+                  <strong>Laberinto</strong>
+                </h2>
+                <p class="ibm-plex-sans-light">
+                  Conformado por más de 6 mil cipreces.
+                </p>
+                <a
+                  href="#"
+                  class="btn-servicio btn-transparent rounded-pill ibm-plex-sans-medium"
+                  style="text-decoration: none; color: white"
+                  >Más información</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="Servicio border p-0 rounded d-inline-block m-1">
+            <div class="servicio-img position-relative text-center">
+              <img
+                src="Images/Logos/servicio2.png"
+                alt=""
+                class="rounded img-fluid"
+                width="auto"
+              />
+              <div
+                class="servicio-img-texto position-absolute top-50 start-50 translate-middle"
+              >
+                <h2 class="eb-garamond-extrabold mb-1">Hospedaje</h2>
+                <p class="ibm-plex-sans-light">10 Ecopods unicos.</p>
+                <a
+                  href="#"
+                  class="btn-servicio btn-transparent rounded-pill ibm-plex-sans-medium"
+                  style="text-decoration: none; color: white"
+                  >Más información</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="Servicio border p-0 rounded d-inline-block m-1">
+            <div class="servicio-img position-relative text-center">
+              <img
+                src="Images/Logos/servicio3.png"
+                alt="Desayuno"
+                class="rounded img-fluid"
+                width="auto"
+              />
+              <div
+                class="servicio-img-texto position-absolute top-50 start-50 translate-middle"
+              >
+                <h2 class="eb-garamond-extrabold mb-1">Desayuno</h2>
+                <p class="ibm-plex-sans-light">a la puerta de tu Ecopod.</p>
+                <a
+                  href="#"
+                  class="btn-servicio btn-transparent rounded-pill ibm-plex-sans-medium"
+                  style="text-decoration: none; color: white"
+                  >Más información</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="Servicio border p-0 rounded d-inline-block m-1">
+            <div class="servicio-img position-relative text-center">
+              <img
+                src="Images/Logos/servicio4.png"
+                alt=""
+                class="rounded img-fluid"
+                width="auto"
+              />
+              <div
+                class="servicio-img-texto position-absolute top-50 start-50 translate-middle"
+              >
+                <h2 class="eb-garamond-extrabold mb-1">Salón de Eventos</h2>
+                <p class="ibm-plex-sans-light">Para todo tipo de eventos.</p>
+                <a
+                  href="#"
+                  class="btn-servicio btn-transparent rounded-pill ibm-plex-sans-medium"
+                  style="text-decoration: none; color: white"
+                  >Más información</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-sobrenos">
+        <div class="section-sobrenos rounded bg-white container">
+          <div class="sobrenos-texto">
+            <h2 class="ibm-plex-sans-bold titulos">Sobre Nosotros</h2>
+            <img
+              src="Images/Logos/divisor2.png"
+              alt=""
+              width="auto"
+              height="9px"
+            />
+            <br />
+            <br />
+            <p class="ibm-plex-sans-light">
+              Con más de dos años de experiencia en ofrecer una estancia
+              inolvidable, en
+              <strong class="texto-green ibm-plex-sans-medium"
+                >Anhelos Lodge</strong
+              >
+              nos enorgullece brindar un refugio de paz y relajación rodeado de
+              naturaleza. Desde el momento en que entras a nuestras
+              instalaciones, hasta cuando te vas, te recibimos con una cálida
+              bienvenida y la mejor de las hospitalidades que solo un lugar como
+              <strong class="texto-green ibm-plex-sans-medium"
+                >Anhelos lodge</strong
+              >, puede ofrecer.
+              <br />
+              <br />
+              Nuestros
+              <strong class="texto-green ibm-plex-sans-medium">Ecopods</strong>
+              están diseñados para ofrecer una experiencia única y cálida en
+              nuestro
+              <strong class="texto-green ibm-plex-sans-medium"
+                >clima fresco</strong
+              >, que te mantendrá cálido y seguro en todo momento. Abrimos todos
+              los días de
+              <strong class="texto-green ibm-plex-sans-medium">6am a 9pm</strong
+              >, para que puedas venir en tu mejor momento para disfrutar y
+              relajarte. Ya sea que vengas a desconectarte de la rutina,
+              explorar nuestra bella propiedad verde o disfrutar de un momento
+              familiar, con nosotros siempre encontrarás un lugar lleno de
+              recuerdos.
+            </p>
+
+            <div class="boton-sabermas text-center pt-5">
+              <h6 class="mb-4">
+                ¿Quieres más información
+                <strong class=".ibm-plex-sans-regular titulos"
+                  >sobre nosotros</strong
+                >?
+              </h6>
+              <a
+                href="#"
+                class="btn-sabermas rounded-pill ibm-plex-sans-medium brillo"
+                style="text-decoration: none"
+                >Más</a
+              >
+            </div>
+          </div>
+
+          <div class="sobrenos-img">
+            <img
+              src="Images/Fotos/20.png"
+              alt="foto20"
+              width="auto"
+              height="370px"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="section-masinfo-container">
+        <div
+          class="section-masinfo bg-white container rounded d-flex flex-wrap"
+          style="box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.1)"
+        >
+          <div class="section-galeria d-flex flex-wrap justify-content-center">
+            <img
+              src="Images/Fotos/gal1.png"
+              alt=""
+              width="300px"
+              height="auto"
+              class="rounded m-1"
+            />
+            <img
+              src="Images/Fotos/gal2.png"
+              alt=""
+              width="300px"
+              height="auto"
+              class="rounded m-1"
+            />
+            <img
+              src="Images/Fotos/gal3.png"
+              alt=""
+              width="300px"
+              height="auto"
+              class="rounded m-1"
+            />
+            <img
+              src="Images/Fotos/gal4.png"
+              alt=""
+              width="300px"
+              height="auto"
+              class="rounded m-1"
+            />
+          </div>
+
+          <div class="masinfo-text p-3">
+            <h3 class="pb-3 titulos">Contáctanos</h3>
+            <p class="ibm-plex-sans-light">
+              ¡Síguenos en nuestras páginas oficiales y accede a contenido
+              exclusivo y novedades! Sé el primero en recibir información sobre
+              nuestras nuevas instalaciones, ofertas, descuentos, paquetes y
+              mucho más. Además, podrás contactarnos para resolver tus dudas y
+              realizar reservas durante nuestro horario de atención, de 6 a.m. a
+              9 p.m. ¡No te lo pierdas!
+            </p>
+
+            <div class="redes d-flex flex-wrap pt-1">
+              <a
+                href="https://www.facebook.com/anheloslodgecr/?locale=es_LA"
+                class="me-3 icono"
+                ><img src="Images/Logos/Facebook.png" alt="" width="40px"
+              /></a>
+              <a
+                href="https://www.instagram.com/anheloslodge/?hl=es"
+                class="me-3 icono"
+                ><img src="Images/Logos/Instagram.png" alt="" width="40px"
+              /></a>
+              <div
+                class="telf-anhelos ibm-plex-sans-bold texto-green me-3"
+                style="font-size: 13px"
+              >
+                <img
+                  src="Images/Logos/llamar.png"
+                  class=""
+                  width="40px"
+                />+(506) 8318-9442
+              </div>
+              <div
+                class="correo-anhelos ibm-plex-sans-bold texto-green me-3"
+                style="font-size: 13px"
+              >
+                <img
+                  src="Images/Logos/correo.png"
+                  class=""
+                  alt=""
+                  width="40px"
+                />anheloslodge@hotmail.com
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer text-dark p-5">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h5 class="footer-title">Servicios</h5>
+          <ul class="footer-list">
+            <li><a href="servicios.html#desayuno" class="footer-item ibm-plex-sans-light">Desayuno</a></li>
+            <li><a href="ConsultaTarifa.html" class="footer-item ibm-plex-sans-light">Conoce tu tarifa</a></li>
+            <li><a href="servicios.html#decoraciones" class="footer-item ibm-plex-sans-light">Decoraciones</a></li>
+            <li><a href="Ofertas.html" class="footer-item ibm-plex-sans-light">Ofertas</a></li>
+          </ul>
+        </div>
+    
+        <div class="footer-section">
+          <h5 class="footer-title">Nuestras Instalaciones</h5>
+          <ul class="footer-list">
+            <li><a href="servicios.html#hospedajes" class="footer-item ibm-plex-sans-light">Ecopods</a></li>
+            <li><a href="servicios.html#salon" class="footer-item ibm-plex-sans-light">Salón de Eventos</a></li>
+            <li><a href="servicios.html#pase-dia" class="footer-item ibm-plex-sans-light">Pase del día</a></li>
+          </ul>
+        </div>
+    
+        <div class="footer-section">
+          <h5 class="footer-title">Anhelos Lodge</h5>
+          <ul class="footer-list">
+            <li><a href="sobrenos.html#comoLlegar" class="footer-item ibm-plex-sans-light">Cómo llegar</a></li>
+            <li><a href="sobrenos.html" class="footer-item ibm-plex-sans-light">Más sobre nosotros</a></li>
+            <li><a href="galeria.html" class="footer-item ibm-plex-sans-light">Galería de imágenes</a></li>
+          </ul>
+        </div>
+    
+        <div class="footer-section">
+          <h5 class="footer-title">Otros</h5>
+          <ul class="footer-list">
+            <li><a href="Q&A.html" class="footer-item ibm-plex-sans-light">Preguntas frecuentes</a></li>
+            <li><a href="desarrollador.html" class="footer-item ibm-plex-sans-light">Desarrollador</a></li>
+          </ul>
+        </div>
+      </div>
+    
+      <div class="footer-payment">
+        <div class="payment-icons">
+          <img src="Images/Logos/logoPaypal.png" alt="Paypal Logo" width="auto" height="20px">
+          <img src="Images/Logos/logoVisa.png" alt="Visa Logo" width="auto" height="20px">
+          <img src="Images/Logos/LogoSinpe.png" alt="Sinpe Logo" width="auto" height="30px">
+          <img src="Images/Logos/logoEfectivo.png" alt="Cash Logo" width="auto" height="20px">
+        </div>
+        <p class="footer-copy">@ 2024 Anhelos Lodge</p>
+        <p class="footer-location">San Juanillo de Naranjo</p>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

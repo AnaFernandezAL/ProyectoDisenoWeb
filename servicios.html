@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios</title>
+
+    <link rel="stylesheet" href="css/navbarFooter.css">
+    <link rel="stylesheet" href="css/fuentes.css">
+    <link rel="stylesheet" href="css/servicios.css">
+    <link rel="stylesheet" href="css/scrollbar.css" />
+
+    
+    <!--Bootstrap 5-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+
+    <!--Fuentes de google-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Nunito:wght@200..1000&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    
+<!--Navbar-->
+<nav class="navbar navbar-expand-lg navbar-light p-0 sticky-top opacityScroll rounded-pill p-2">
+  <div class="container">
+      <a class="navbar-brand" href="#">
+          <img src="Images/Logos/logo de Anhelosf.png" alt="Logo" style="height: 50px;">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                  <a class="nav-link text-black display-4 fs-5 me-5 fw-bold ibm-plex-sans-semibold" href="index.html">Inicio</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle fw-bold text-black display-4 fs-5 me-2 ibm-plex-sans-regular" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Anhelos Lodge
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                    <li><a class="dropdown-item" href="servicios.html#grandes">Ecopods Grandes y Familiares</a></li>
+                    <li><a class="dropdown-item" href="servicios.html#minis">Ecopods Pequeños</a></li>
+                    <li><a class="dropdown-item" href="servicios.html">Salón de eventos</a></li>
+                    <li><a class="dropdown-item" href="servicios.html#pase-dia">Laberinto</a></li>
+                </ul>
+            </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-black display-4 fs-5 me-2 ibm-plex-sans-regular" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Servicios
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                      <li><a class="dropdown-item" href="servicios.html#Desayuno">Desayuno</a></li>
+                      <li><a class="dropdown-item" href="ConsultaTarifa.html">Conoce tu Tarifa</a></li>
+                      <li><a class="dropdown-item" href="servicios.html#decoraciones">Decoraciones</a></li>
+                      <li><a class="dropdown-item" href="Ofertas.html">Ofertas</a></li>
+                  </ul>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-black display-4 fs-5 me-2 ibm-plex-sans-regular" href="#" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Nosotros
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="aboutDropdown">
+                      <li><a class="dropdown-item" href="sobrenos.html#Contactame">Contacto</a></li>
+                      <li><a class="dropdown-item" href="sobrenos.html#comoLlegar">Cómo llegar</a></li>
+                      <li><a class="dropdown-item" href="sobrenos.html#Historia">Nuestra Historia</a></li>
+                      <li><a class="dropdown-item" href="galeria.html">Galería</a></li>
+                  </ul>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link text-black display-4 fs-5 ibm-plex-sans-regular" href="Q&A.html">Q&A</a>
+              </li>
+          </ul>
+          <div class="navbar-buttons ms-3">
+              <a class="btn display-4 btn-reservar rounded-pill ibm-plex-sans-regular" href="https://wa.me/50683189442">Reservar Ahora</a>
+          </div>
+      </div>
+  </div>
+</nav>
+
+<div class="fondo p-3">
+  <div class="prin-servicios container my-5 bg-white rounded-3" style="box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.2);">
+    <div class="d-flex flex-wrap justify-content-center mb-0 logo">
+      <div><img src="Images/Logos/logo de Anhelosf.png" height="auto" width="500"></div>
+      <br>
+    </div>
+    <div class="ibm-plex-sans-light text-center mb-5">Descubre todos los servicios que Anhelos te ofrece, puedes seleccionar el que te interese o seguir bajando para descubrir más bajando en esta misma página!</div>
+    <div class="row row-cols-1 row-cols-md-3 row-cols-lg-5 g-3 servicios-categorias">
+      <div class="col">
+        <div class="card h-100 servicio-desayuno">
+          <img src="Images/servicios/cabanas2.png" alt="Desayuno">
+          <div class="card-body">
+            <h5 class="card-title eb-garamond-bold">Desayuno</h5>
+            <p class="card-text ibm-plex-sans-light" style="color: white;">Toda la info que necesitas sobre nuestros deayunos y comidas.</p>
+            <a href="#desayuno" class="btn btn-outline-light rounded-pill">Ir</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 servicio-cabanas">
+          <img src="Images/servicios/cabanas.png" alt="Cabañas">
+          <div class="card-body">
+            <h5 class="card-title eb-garamond-bold">Hospedaje</h5>
+            <p class="card-text ibm-plex-sans-light" style="color: white;">Conoce nuestros hospedajes.</p>
+            <a href="#hospedaje" class="btn btn-outline-light rounded-pill">Ir</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 servicio-salon">
+          <img src="Images/servicios/salon.png" alt="Salón de Eventos">
+          <div class="card-body">
+            <h5 class="card-title eb-garamond-bold">Salón de Eventos</h5>
+            <p class="card-text ibm-plex-sans-light" style="color: white;">Conoce sobre nuestro salon de eventos</p>
+            <a href="#salon" class="btn btn-outline-light rounded-pill">Ir</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 servicio-laberinto">
+          <img src="Images/servicios/cabanas2.png" alt="Laberinto">
+          <div class="card-body">
+            <h5 class="card-title eb-garamond-bold">Pase del dia</h5>
+            <p class="card-text ibm-plex-sans-light" style="color: white;">Consulta nuestro pase del dia</p>
+            <a href="#pase-dia" class="btn btn-outline-light rounded-pill">Ir</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 servicio-fogata">
+          <img src="Images/servicios/fogata.png" alt="Fogata">
+          <div class="card-body">
+            <h5 class="card-title eb-garamond-bold">Decoraciones</h5>
+            <p class="card-text ibm-plex-sans-light" style="color: white;">Aprende sobre nuestros servicios de decoraciones.</p>
+            <a href="#decoraciones" class="btn btn-outline-light rounded-pill">Ir</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <br>
+  <br>
+  <br>
+  <br>
+
+<section id="Desayuno">
+  <div class="container mb-5">
+    <div class="bg-white p-3 rounded-3 desayunos mb-5">
+      <div class="container mt-5">
+          <div class="row align-items-start">
+              <div class="col-auto justify-content-center">
+                  <div class="circle">
+                  </div>
+              </div>
+              <div class="col">
+                  <h2 class="ibm-plex-sans-bold" style="color: #518d3e;">Desayunos</h2>
+                  <p class="ibm-plex-sans-light">En Anhelos Lodge te ofrecemos un delicioso desayuno como parte de tu experiencia de hospedaje, por un costo adicional de <strong>7,000 colones por pareja</strong>. Este desayuno incluye <strong>Gallo Pinto</strong> y plátano maduro, acompañados de hasta dos opciones adicionales para satisfacer tus preferencias.</p>
+                  <p class="ibm-plex-sans-bold"><strong>Acompañamientos disponibles:</strong></p>
+                  <ul class="ibm-plex-sans-light">
+                      <li><strong>Huevo:</strong> Frito, picado o en torta</li>
+                      <li>Salchicha</li>
+                      <li>Salchichón</li>
+                      <li>Natilla</li>
+                      <li><strong>Queso:</strong> Frito o natural</li>
+                  </ul>
+                  <p class="mb-0 ibm-plex-sans-bold"><strong>Horario de entrega:</strong></p>
+                  <p class="ibm-plex-sans-light">entre 7:00am a 8:30am</p>
+  
+                  <hr>
+  
+                  <h3 class="ibm-plex-sans-bold" style="color: #518d3e;">Otros Servicios de Alimentación</h3>
+                  <p class="ibm-plex-sans-light">
+                      En Anhelos Lodge trabajamos en conjunto con restaurantes locales para brindar una experiencia única a nuestros huéspedes. Estos restaurantes pueden llevar sus deliciosos platillos directamente a tu hospedaje, lo que nos permite ofrecer una amplia variedad de opciones culinarias sin contar con un restaurante propio, aparte del servicio de desayuno.
+                  </p>
+                  <p class="ibm-plex-sans-light">
+                      Si deseas una experiencia más exclusiva, puedes solicitar una <strong>cena especial con vino</strong> por un costo adicional. Esta opción está disponible bajo reserva previa, y el monto será cargado a tu cuenta del hospedaje. ¡Déjanos consentirte mientras disfrutas de la tranquilidad de nuestro lodge!
+                  </p>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+</section>
+
+<br><br><br><br><br>
+
+<section class="hospedaje" id="hospedajes">
+  <div class="p-0 rounded-3" style="background-color: #83c35b; color: white;">
+    <div class=" text-center mt-5rounded-3 p-5" style="box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.2);">
+      <h1 class="mb-3 ibm-plex-sans-bold" style="color: #518d3e;">Hospedaje</h1>
+      <p class="mb-4 description" style="color: white;">
+        En <strong>Anhelos Lodge</strong>, contamos con 11 ecopods disponibles para ti las 24 horas, los 7 días de la semana. Cada uno ofrece una impresionante vista al majestuoso Valle Central y al cielo estrellado que caracteriza nuestra hermosa Costa Rica.
+        Puedes realizar tu check-in entre las <strong>2:00 p.m. y las 9:00 p.m.</strong> y disfrutar de una estancia inolvidable hasta el momento de tu check-out a las <strong>11:00 a.m.</strong> del día que elijas.
+        <br>
+        ¡Descubre el ecopod que mejor se adapta a tus necesidades y vive una experiencia única!
+      </p>
+      <hr style="color: white;">
+      <br>
+      <div class="d-flex flex-wrap justify-content-center gap-4">
+        <div class="cabin text-center">
+          <a href="#minis"><img src="Images/Logos/cabana2.png" alt="Mini Ecopod" class=""></a>
+          <p class="cabin-title mt-2">MiniEcopod</p>
+        </div>
+        <div class="cabin text-center">
+          <a href="#grandes"><img src="Images/Logos/cabana1.png" alt="Ecopod" class=""></a>
+          <p class="cabin-title mt-2">Ecopod</p>
+        </div>
+        <div class="cabin text-center">
+          <a href="#familiares"><img src="Images/Logos/cabana3.png" alt="Ecopod Familiar" class=""></a>
+          <p class="cabin-title mt-2">Ecopod Familiar</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<br><br><br><br>
+
+<div>
+<section id="minis">
+  <div class="container bg-white">
+    <h1 class="text-center ibm-plex-sans-bold" style="color: #609e4c;">Mini Ecocpod</h1>
+    <p class="text-center">Una versión pequeña de las grandes, perfecta para mantenerte en calor durante toda la noche gracias a la forma en la que está construida.
+      Tenemos 6 versiones de estas hermosas cabañas, cada una con un parqueo conjunto al lado de nuestro salón de eventos, están equipadas con una cama matrimonial,
+      mesa comedor pequeña, mesa de noche, televisor, cable, internet, plataformas de streaming, dos vasos, baño con ducha y una terraza con dos sillas
+    </p>
+    <div class="row align-items-center">
+        <div class="col-md-6">
+            <img src="Images/Fotos/29.jpg" alt="MiniEcopod Exterior" class="img-fluid mb-3 miImagen" >
+            <img src="Images/Fotos/img3Sec1.png" alt="" width="616px" height="auto" class="miImagen tercera">
+        </div>
+        <div class="col-md-6">
+            <p>
+              <hr>
+              <h4 class="list-unstyled ibm-plex-sans-bold" style="color: #518d3e;">Equipamiento</h4>
+              <img src="Images/Logos/divisor2.png" alt="" width="50px" height="auto" class="mb-4">
+              <ul class="list-unstyled ibm-plex-sans-light">
+                <li><strong class="list-unstyled ibm-plex-sans-bold">Cama matrimonial</strong> – Espaciosa y cómoda para un descanso reparador.</li>
+                <li><strong class="list-unstyled ibm-plex-sans-bold">Mesita comedor pequeña</strong> – Ideal para disfrutar de tus comidas en un ambiente acogedor.</li>
+                <li><strong class="list-unstyled ibm-plex-sans-bold">Mesita de noche</strong> – Con espacio suficiente para tus artículos personales.</li>
+                <li><strong class="list-unstyled ibm-plex-sans-bold">Televisor</strong> – Con acceso a cable e internet para mantenerte entretenido.</li>
+                <li><strong class="list-unstyled ibm-plex-sans-bold">Plataformas de streaming</strong> – Acceso a tus servicios favoritos para ver películas y series.</li>
+                <li><strong class="list-unstyled ibm-plex-sans-bold">Vasos</strong> – Un par de vasos para tu comodidad.</li>
+                <li><strong class="list-unstyled ibm-plex-sans-bold">Baño con ducha</strong> – Moderno y funcional, con todos los servicios que necesitas.</li>
+                <li><strong class="list-unstyled ibm-plex-sans-bold">Terraza con dos sillas</strong> – Perfecta para relajarte y disfrutar del paisaje.</li>
+            </ul>
+            </p>
+            <img src="Images/Fotos/26.jpg" alt=" MiniEcopod Interior" class="img-fluid mb-3 miImagen">
+        </div>
+    </div>
+</div>
+</section>
+
+  <br><br><br>
+
+  <section id="grandes">
+    <div class="container my-5 bg-white rounded-3 p-5">
+      <div class="texto-Ecopod">
+        <h1 class="text-center ibm-plex-sans-bold" style="color: #609e4c;" >Ecopod</h1>
+        <p>Nuestras cabañas, diseñadas para alojar cómodamente a dos personas, con capacidad máxima para cuatro, están ubicadas en la zona más alta de nuestro terreno. Este lugar privilegiado te permite disfrutar de vistas inigualables de la belleza del Valle Central, creando el entorno perfecto para relajarte y reconectar con la naturaleza.</p>
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <img src="Images/Fotos/20.jpg" alt="Ecopod Vista 1" class="img-fluid mb-3 miImagen">
+            </div>
+            <div class="col-md-4">
+                <img src="Images/Fotos/gal4.png" alt="Ecopod Vista 2" class="img-fluid mb-3 miImagen">
+            </div>
+            <div class="col-md-4">
+                <img src="Images/Fotos/gal1.png" alt="Ecopod Interior" class="img-fluid mb-3 miImagen">
+          </div>
+        </div>
+      </div>
+
+        <br>
+        <hr>
+        <br>
+
+        <div class="Equipamiento-Grande">
+          <h2 class="equip-title ibm-plex-sans-bold">Equipamiento</h2>
+          <img src="Images/Logos/divisor2(Blanco).png" alt="" height="auto" width="100px" class="mb-4">
+          <div class="equip-underline ibm-plex-sans-light"></div>
+          <p>
+              Nuestras cabañas están totalmente equipadas para ofrecerte la mejor experiencia. 
+              Aquí encontrarás todo lo necesario para disfrutar de una estadía cómoda y acogedora:
+          </p>
+          <ul class="list-unstyled equip-list">
+              <li><i class="fas fa-bath equip-icon"></i><span class="equip-item ibm-plex-sans-bold">Baño</span> – Moderno y funcional, con todos los servicios que necesitas.</li>
+              <li><i class="fas fa-tv equip-icon"></i><span class="equip-item ibm-plex-sans-bold">Televisión</span> – Con acceso a cable para mantenerte entretenido.</li>
+              <li><i class="fas fa-wifi equip-icon"></i><span class="equip-item ibm-plex-sans-bold">Internet</span> – Conexión rápida y estable durante toda tu estadía.</li>
+              <li><i class="fas fa-utensils equip-icon"></i><span class="equip-item ibm-plex-sans-bold">Cocina equipada</span> – Incluye todos los utensilios esenciales para dos personas.</li>
+              <li><i class="fas fa-bed equip-icon"></i><span class="equip-item ibm-plex-sans-bold">Cama matrimonial</span> – Espaciosa y cómoda para un descanso reparador.</li>
+              <li><i class="fas fa-chair equip-icon"></i><span class="equip-item ibm-plex-sans-bold">Comedor</span> – Ideal para disfrutar de tus comidas en un ambiente acogedor.</li>
+              <li><i class="fas fa-door-open equip-icon"></i><span class="equip-item ibm-plex-sans-bold">Balcón</span> – Perfecto para relajarte y disfrutar del paisaje.</li>
+              <li><i class="fas fa-box equip-icon"></i><span class="equip-item ibm-plex-sans-bold">Minirefrigerador</span> – Para mantener tus alimentos frescos.</li>
+              <li><i class="fas fa-coffee equip-icon"></i><span class="equip-item ibm-plex-sans-bold">Coffeemaker</span> – Para disfrutar de un café recién hecho.</li>
+              <li><i class="fas fa-oven equip-icon"></i><span class="equip-item ibm-plex-sans-bold">Horno</span> – Perfecto para preparar tus platillos favoritos.</li>
+              <li><i class="fas fa-sink equip-icon"></i><span class="equip-item ibm-plex-sans-bold">Pila para lavar platos</span> – Cómoda y práctica para mantener todo limpio.</li>
+              <li><i class="fas fa-cable equip-icon"></i><span class="equip-item ibm-plex-sans-bold">Cable</span> – Para disfrutar de tus programas favoritos.</li>
+          </ul>
+      </div>
+  </div>
+  </section>
+  </div>
+  <br>
+  <section id="familiares">
+    <div class="container my-5 bg-white rounded-3 p-3">
+      <h1 class="text-center ibm-plex-sans-bold" style="color: #609e4c;">Ecopod Familiar</h1>
+      <p class="text-center ibm-plex-sans-light">Disfruta de una experiencia única en nuestra Cabaña Familiar, diseñada para ofrecerte la comodidad y privacidad que necesitas para disfrutar con tu familia o amigos. Ubicada en un entorno natural, rodeada de un paisaje impresionante, esta cabaña está equipada con todo lo necesario para brindarte una estancia relajante y funcional.</p>
+    <p class="text-center ibm-plex-sans-light">Con capacidad para hasta 6 personas, la Cabaña Familiar cuenta con amplios espacios interiores y exteriores, ideal para aquellos que buscan escapar del bullicio y conectarse con la naturaleza sin renunciar a la comodidad. Ya sea para un fin de semana de descanso o unas vacaciones en familia, esta cabaña te garantiza una estancia inolvidable.</p>  
+    <hr class="mb-0">
+      <div class="row align-items-center">
+          <div class="col-md-4">
+            <div class="container mt-5 Equipamiento">
+              <h2 class="text-success ibm-plex-sans-bold">Equipamiento</h2>
+              <img src="Images/Logos/divisor2(Blanco).png" alt="" height="" width="50px" class="mb-4">
+          
+              <ul class="list-unstyled ibm-plex-sans-light">
+                  <li class="mb-2">
+                      <i class="fa fa-cutlery text-success me-2"></i>
+                      <strong>Cocina totalmente equipada y funcional</strong> 
+                  </li>
+                  <li class="mb-2">
+                      <i class="fa fa-bath text-success me-2"></i>
+                      <strong>Baño</strong> 
+                  </li>
+                  <li class="mb-2">
+                      <i class="fa fa-bed text-success me-2"></i>
+                      <strong>Dos camas matrimoniales</strong>
+                  </li>
+                  <li class="mb-2">
+                      <i class="fa fa-couch text-success me-2"></i>
+                      <strong>Sala</strong>
+                  </li>
+                  <li class="mb-2">
+                      <i class="fa fa-shower text-success me-2"></i>
+                      <strong>Baño con ducha</strong>
+                  </li>
+                  <li class="mb-2">
+                      <i class="fa fa-tv text-success me-2"></i>
+                      <strong>Televisor</strong> 
+                  </li>
+                  <li class="mb-2">
+                      <i class="fa fa-wifi text-success me-2"></i>
+                      <strong>Internet</strong>
+                  </li>
+                  <li class="mb-2">
+                      <i class="fa fa-chair text-success me-2"></i>
+                      <strong>Comedor</strong> 
+                  </li>
+                  <li class="mb-2">
+                      <i class="fa fa-car text-success me-2"></i>
+                      <strong>Parqueo</strong>
+                  </li>
+              </ul>
+          </div>
+          
+              <img src="Images/Fotos/Imagen de WhatsApp 2024-11-16 a las 08.13.26_1a43bd1d.jpg" alt="Ecopod Familiar Interior" class="img-fluid mb-3 miImagen">
+          </div>
+          <div class="col-md-8">
+              <img src="Images/Fotos/Imagen de WhatsApp 2024-11-16 a las 08.13.25_25266ca2.jpg" alt="Ecopod Familiar Vista" class="img-fluid mb-3 miImagen">
+          </div>
+      </div>
+  </div>
+  </section>
+</div>
+
+
+<div class="text-center mt-5 p-3" style="background-color: #83c35b; color: white;">
+  <h3 class="ibm-plex-sans-bold">¡Lo más buscado en Anhelos!</h3>
+  <p class="ibm-plex-sans-light">
+    Obtén info sobre todo lo más buscado en Anhelos lodge hasta ahora!!
+  </p>
+</div>
+
+<section id="decoraciones">
+  <div class="container my-5">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <img src="Images/Fotos/decoracion 1.png" alt="Decoración Cabaña" class="img-fluid mb-3">
+        <img src="Images/Fotos/decoracion 2.png" alt="Decoración Cabaña" class="img-fluid mb-3">
+      </div>
+  
+      <div class="col-md-6">
+        <h2 class=" ibm-plex-sans-bold" style="color: #609e4c;">Servicio de Decoraciones</h2>
+        <img src="Images/Logos/divisor2.png" alt="" width="0px" height="auto" class="mb-4">
+        <p class="ibm-plex-sans-light" style="font-size: 18px;">
+          En <strong>Anhelos Lodge</strong> ofrecemos un servicio exclusivo de decoraciones personalizadas para que tu estadía o evento sea aún más especial. Las decoraciones están disponibles exclusivamente en nuestras cabañas. 
+          Si deseas más detalles o conocer los precios de nuestras decoraciones, no dudes en contactarnos al <strong>8926/0462</strong> para coordinar todos los detalles.
+        </p>
+        <p class="ibm-plex-sans-light" style="font-size: 18px;">
+          Recuerda que, para conocer más sobre las decoraciones del <strong>Salón de Eventos</strong>, debes consultar la sección correspondiente en nuestro sitio web.
+        </p>
+      </div>
+      <br>
+      <br><br><br>
+    </div>
+  </div>
+</section>
+
+
+<section id="salon">
+  <section id="salon-eventos" class="contenedor-flex">
+    <div class="img-salon">
+        <img src="Images/Fotos/salon.png" alt="Salón de eventos" width="800" class="miImagen">
+    </div>
+    <div class="info-salon ibm-plex-sans-light">
+        <h2 class="ibm-plex-sans-bold">Salón de Eventos</h2>
+        <p>El salón de eventos de Anhelos Lodge es el lugar perfecto para todo tipo de celebraciones y eventos. Con capacidad para 50 personas, es apto para todas las edades, ofreciendo un ambiente cómodo y versátil.</p>
+        <p>Desde fiestas de cumpleaños hasta bodas y eventos corporativos, nuestro salón se adapta a cualquier tipo de ocasión. Ofrecemos servicios adicionales de decoración, catering, y mucho más, asegurando que tu evento sea inolvidable.</p>
+        <p class="ibm-plex-sans-bold"><strong>Servicios incluidos:</strong></p>
+        <ul>
+            <li>Decoración personalizada</li>
+            <li>Servicio de comida (catering)</li>
+            <li>Espacios amplios y cómodos</li>
+            <li>Capacidad para 50 personas</li>
+            <li>Apto para todas las edades</li>
+        </ul>
+        <p>Para más información o reservas, contáctanos al <strong class="ibm-plex-sans-bold">8318-9442</strong> y te ayudaremos a planificar el evento de tus sueños.</p>
+    </div>
+  </section>
+</section>
+
+
+<section id="pase-dia" class="contenedor-flex ibm-plex-sans-light">
+  <div class="info-pase">
+      <h2 class="ibm-plex-sans-bold">Pase del Día</h2>
+      <p>Disfruta de una experiencia única con el Pase del Día. ¡Te ofrecemos 3 horas de diversión y relajación en las mejores zonas de Anhelos Lodge!</p>
+      <p>Con acceso al <strong class="ibm-plex-sans-bold">laberinto</strong>, nuestras hermosas <strong class="ibm-plex-sans-bold">zonas verdes</strong> y una acogedora <strong class="ibm-plex-sans-bold">fogata</strong>, podrás aprovechar al máximo tu tiempo de descanso o aventura en nuestro lodge.</p>
+      <p>El Pase del Día está disponible de <strong class="ibm-plex-sans-bold">6 AM a 6 PM</strong>, dándote la libertad de elegir el horario que más te convenga. ¡Ven a disfrutar de la naturaleza y la tranquilidad de nuestro espacio único!</p>
+      <p><strong class="ibm-plex-sans-bold">Lo que incluye:</strong></p>
+      <ul>
+          <li>Acceso al laberinto</li>
+          <li>Acceso a las zonas verdes</li>
+          <li>Fogata para disfrutar con amigos o familia</li>
+          <li>3 horas de acceso completo a estas zonas</li>
+      </ul>
+      <p>¡No esperes más! Reserva tu Pase del Día llamando al <strong class="ibm-plex-sans-bold">8318-9442</strong> y asegúrate un lugar en esta increíble experiencia.</p>
+  </div>
+
+  <div class="imagenes-pase">
+      <div class="imagen">
+          <img src="Images/Fotos/45.jpg" alt="Laberinto de Anhelos Lodge" class="miImagen">
+      </div>
+      <div class="imagen">
+          <img src="Images/Fotos/20.jpg" alt="Zonas verdes de Anhelos Lodge" class="miImagen">
+      </div>
+      <div class="imagen">
+          <img src="Images/Fotos/23.jpg" alt="Fogata en Anhelos Lodge" class="miImagen">
+      </div>
+  </div>
+</section>
+
+
+</div>
+
+
+<!--Footer-->
+<div class="footer text-dark p-5">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h5 class="footer-title">Servicios</h5>
+        <ul class="footer-list">
+          <li><a href="servicios.html#desayuno" class="footer-item ibm-plex-sans-light">Desayuno</a></li>
+          <li><a href="ConsultaTarifa.html" class="footer-item ibm-plex-sans-light">Conoce tu tarifa</a></li>
+          <li><a href="servicios.html#decoraciones" class="footer-item ibm-plex-sans-light">Decoraciones</a></li>
+          <li><a href="Ofertas.html" class="footer-item ibm-plex-sans-light">Ofertas</a></li>
+        </ul>
+      </div>
+  
+      <div class="footer-section">
+        <h5 class="footer-title">Nuestras Instalaciones</h5>
+        <ul class="footer-list">
+          <li><a href="servicios.html#hospedajes" class="footer-item ibm-plex-sans-light">Ecopods</a></li>
+          <li><a href="servicios.html#salon" class="footer-item ibm-plex-sans-light">Salón de Eventos</a></li>
+          <li><a href="servicios.html#pase-dia" class="footer-item ibm-plex-sans-light">Pase del día</a></li>
+        </ul>
+      </div>
+  
+      <div class="footer-section">
+        <h5 class="footer-title">Anhelos Lodge</h5>
+        <ul class="footer-list">
+          <li><a href="sobrenos.html#comoLlegar" class="footer-item ibm-plex-sans-light">Cómo llegar</a></li>
+          <li><a href="sobrenos.html" class="footer-item ibm-plex-sans-light">Más sobre nosotros</a></li>
+          <li><a href="galeria.html" class="footer-item ibm-plex-sans-light">Galería de imágenes</a></li>
+        </ul>
+      </div>
+  
+      <div class="footer-section">
+        <h5 class="footer-title">Otros</h5>
+        <ul class="footer-list">
+          <li><a href="Q&A.html" class="footer-item ibm-plex-sans-light">Preguntas frecuentes</a></li>
+          <li><a href="desarrollador.html" class="footer-item ibm-plex-sans-light">Desarrollador</a></li>
+        </ul>
+      </div>
+    </div>
+  
+    <div class="footer-payment">
+      <div class="payment-icons">
+        <img src="Images/Logos/logoPaypal.png" alt="Paypal Logo" width="auto" height="20px">
+        <img src="Images/Logos/logoVisa.png" alt="Visa Logo" width="auto" height="20px">
+        <img src="Images/Logos/LogoSinpe.png" alt="Sinpe Logo" width="auto" height="30px">
+        <img src="Images/Logos/logoEfectivo.png" alt="Cash Logo" width="auto" height="20px">
+      </div>
+      <p class="footer-copy">@ 2024 Anhelos Lodge</p>
+      <p class="footer-location">San Juanillo de Naranjo</p>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</body>
+</html>

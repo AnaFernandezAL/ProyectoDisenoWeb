@@ -1,0 +1,477 @@
+
+.deco.decoracionAnhelos{
+    height: 10px;
+    width: auto;
+}
+
+.logo,
+.divider {
+    box-shadow: none !important; 
+    transition: none;
+}
+
+.logo:hover,
+.divider:hover {
+    transform: none;
+    box-shadow: none; 
+}
+
+.fondo{
+    background-image:url("../Images/Logos/fondo.png");
+    background-size: cover;
+}
+
+.card {
+    position: relative; 
+    overflow: hidden; 
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease; 
+}
+
+.card:hover img {
+    transform: scale(1.15); 
+}
+
+.card-body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    z-index: 2;
+}
+
+.card-body h5 {
+    margin-bottom: 10px;
+}
+
+.card-text {
+    width: 170px;
+}
+
+.btn-outline-light {
+    border: 2px solid white;
+    color: white;
+    width: 70px;
+}
+
+.btn-outline-light:hover {
+    background-color: white;
+    color: black;
+}
+
+
+.card-title {
+    font-size: 25px;
+}
+
+
+.circle {  
+    width: 450px;  
+    height: 450px;  
+    border-radius: 50%;  
+    background-image: url('../Images/Fotos/desayuno.png'); 
+    background-size: cover;  
+    margin-right: 35px; 
+    display: block;
+}
+
+.desayunos{
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.2);
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.description {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.cabin {
+    padding: 15px;
+    width: 200px;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.2);
+}
+
+.cabin-title {
+    margin: 0;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #769C3F;
+}
+
+
+.cabin img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.cabin:hover img {
+    transform: scale(1.15);
+}
+
+/* MiniEcocpod - Estilo general para esta sección */
+.container.my-5:nth-child(1) {
+    background-color: #f9f9f9;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container.my-5:nth-child(1) h1 {
+    color: #0056b3;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.container.my-5:nth-child(1) p {
+    color: #555;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.miImagen {
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.miImagen:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Ecopod - Estilo general */
+.container.text-center.my-5 {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.100);
+}
+
+.container.text-center.my-5 h1 {
+    color: #28a745;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.container.text-center.my-5 p {
+    color: #666;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.container.text-center.my-5 img {
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.container.text-center.my-5 img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.container.my-5:nth-child(3) {
+    background-color: #f4f4f4;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container.my-5:nth-child(3) h1 {
+    color: #d9534f;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.container.my-5:nth-child(3) p {
+    color: #444;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.container.my-5:nth-child(3) img {
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.container.my-5:nth-child(3) img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.tercera{
+    display: block;
+}
+
+
+@media (max-width: 768px) {
+    .decoracionAnhelos{
+        height: 5px;
+        width: auto;
+    }
+
+    .container.my-5 img,
+    .container.text-center.my-5 img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .container.my-5 p,
+    .container.text-center.my-5 p {
+        font-size: 1rem;
+    }
+
+    .tercera{
+        display: none;
+    }
+
+    .circle {  
+        width: 450px;  
+        height: 450px;  
+        border-radius: 50%;  
+        background-image: url('../Images/Fotos/desayuno.png'); 
+        background-size: cover;  
+        margin-right: 35px; 
+        display: none;
+    }
+
+    .servicios-categorias .col{
+        display: none;
+    }
+}
+
+.servicios-categorias{
+    display: block;
+}
+
+.top{
+    margin-top: -300px;
+    width: 630px;
+}
+
+
+strong{
+    color: #609e4c;
+}
+
+.texto-Ecopod{
+    text-align: center;
+}
+
+
+.Equipamiento-Grande{
+    background-color: #79bb61;
+    padding: 50px;
+    border-radius: 30px;
+    color: white;
+}
+
+.equip-item{
+    color: #355c27;
+}
+
+.equip-icon{
+    margin-right: 15px;
+}
+
+.Equipamiento{
+    background-color: #79bb61;
+    border-radius: 30px;
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Equipamiento:hover{
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.Equipamiento strong{
+color: whitesmoke;
+}
+
+
+
+
+#salon-eventos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #f7f7f7;
+}
+
+.img-salon img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.info-salon {
+    max-width: 50%;
+    padding-left: 20px;
+}
+
+.info-salon h2 {
+    color: #1e2a47;
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.info-salon p {
+    font-size: 1.1em;
+    color: #333;
+    line-height: 1.6;
+}
+
+.info-salon ul {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+.info-salon ul li {
+    font-size: 1.1em;
+    color: #555;
+}
+
+@media (max-width: 768px) {
+    #salon-eventos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info-salon {
+        max-width: 100%;
+        padding-left: 0;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+
+#pase-dia {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #ffffff; 
+    color: #1e2a47;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.info-pase {
+    max-width: 50%;
+    padding-right: 20px;
+}
+
+.info-pase h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #0c7900; /* Verde oscuro */
+}
+
+.info-pase p {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.info-pase ul {
+    padding-left: 20px;
+}
+
+.info-pase ul li {
+    font-size: 1.1em;
+    color: #0c7900;
+}
+
+.imagenes-pase {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 45%;
+}
+
+.imagenes-pase .imagen {
+    width: 30%;
+}
+
+.imagenes-pase img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease;
+}
+
+.imagenes-pase img:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    #pase-dia {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .info-pase {
+        max-width: 100%;
+        padding-right: 0;
+    }
+
+    .imagenes-pase {
+        align-items: center;
+        max-width: 100%;
+        gap: 2px;
+        padding: 40px;
+    }
+
+    .imagenes-pase .imagen {
+        width: 50%;
+        margin-bottom: 15px;
+    }
+}
+
+.imagenes-pase img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}

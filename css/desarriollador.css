@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.developer-card {
+    max-width: 600px;
+    border: none;
+    border-radius: 15px;
+    background-color: #ffffff;
+    padding: 30px;
+}
+
+.developer-photo img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 4px solid #4CAF50;
+}
+
+.developer-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4CAF50;
+}
+
+.developer-description {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.social-links .btn {
+    font-size: 14px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+html {
+    scroll-behavior: smooth;
+  }

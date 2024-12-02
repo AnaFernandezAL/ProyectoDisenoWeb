@@ -1,0 +1,298 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+.fondo{
+    background-image: url("../Images/Logos/fondo.png");
+    background-size: cover;
+    background-position: top;
+}
+
+.titulo{
+    color: #97d372;
+}
+
+.semana-container{
+    justify-items: center;
+}
+
+.dia-container{
+    width: 70%;
+    overflow: hidden;
+    user-select: none;
+}
+
+.semana{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.dia{
+    width: 20%;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 15px;
+    transition-duration: .5s;
+    color: #97d372;
+}
+
+.dia:hover{
+    background-color: #97d372;
+    cursor: pointer;
+    color: #d3ffba;
+}
+
+.selected {
+    background-color: #97d372;
+    color: #d3ffba;
+}
+
+.img-cabana{
+    width: 50px;
+    height: auto;
+}
+
+.contenedor-cabanas{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    width: 500px;
+}
+.cabanas{
+    width: 550px;
+    border-bottom: rgb(219, 219, 219) 1px solid;
+    border-right: rgb(219, 219, 219) 1px solid;
+}
+
+.ecopod{
+    width: 40%;
+    justify-items: center;
+    text-align: center;
+    padding: 5px;
+    transition-duration: .5s;
+}
+
+.ecopod:hover{
+    background-color: #d3ffba;
+}
+
+.selected-ecopod{
+    background-color: #d3ffba;
+}
+
+.contador-personas{
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    width: 130px;
+}
+
+.boton{
+    width: 40%;
+    text-align: center;
+    transition-duration: .5s;
+}
+
+.centro{
+    border-left: #d8d8d8 solid 1px;
+    border-right: #d8d8d8 solid 1px;
+    width: 50%;
+}
+
+.restar:hover{
+    background-color: #d3ffba;
+    color:  #86bc65;;
+    cursor: pointer;
+}
+
+.sumar:hover{
+    background-color: #d3ffba;
+    color:  #86bc65;;
+    cursor: pointer;
+}
+
+.personas{
+    width:450px;
+}
+
+.Desayuno{
+    width: 510px;
+    border-bottom: rgb(219, 219, 219) 1px solid;
+}
+
+.check{
+    width: 30px;
+    text-align: center;
+}
+
+.check:hover{
+    color: #86bc65;
+    cursor: pointer;
+}
+
+.contenedor-detalles{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0px;
+}
+
+.texto-desayuno{
+    padding-top: 2.25px;
+}
+
+.boton-calcular{
+    text-decoration: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #86bc65;
+    font-size: larger;
+    transition-duration: .5s;
+}
+
+.boton-calcular:hover{
+    color: #d9ffc2;
+    background-color: #699f48;
+    transform: scale(1.05);
+}
+
+.resultado{
+    background: linear-gradient(135deg, #86bc65, #4f9d58);
+    border-top-right-radius: 200px;
+    border-bottom-left-radius: 200px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.2);
+}
+
+.re-tot{
+    border: #368b3d solid 2px;
+}
+
+.cabecera-resultados{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 40%;
+}
+
+.fondo-verde{
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    background: linear-gradient(135deg, #86bc65, #4f9d58);
+    color: white;
+}
+
+.desgloce{
+    margin-bottom: 30px;
+}
+
+.resultado {
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+
+  @media (max-width: 768px){
+    
+    .desitem{
+        margin-bottom: 10px;
+    }
+
+    .milogoAn, .puntos{
+        display: none;
+    }
+
+    .cabanas{
+        width: 550px;
+        border-bottom: rgb(219, 219, 219) 1px solid;
+        border-right: rgb(219, 219, 219) 0px solid;
+    }
+
+
+    .dia-container{
+        width: 100%;
+        overflow: hidden;
+        user-select: none;
+    }
+    
+    .semana{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    
+    .dia{
+        width: 20%;
+        text-align: center;
+        padding-top: 10px;
+        font-size: 15px;
+        transition-duration: .5s;
+        color: #97d372;
+    }
+
+    .dom, .sab, .vier, .juev, .mier, .mar, .lun{
+        visibility: hidden;
+    }
+
+    .dom::after{
+        content: "Dom";
+        visibility: visible;
+        display: block;
+    }
+
+    .sab::after{
+        content: "Sab";
+        visibility: visible;
+        display: block;
+    }
+
+    .vier::after{
+        content: "Vier";
+        visibility: visible;
+        display: block;
+    }
+
+    .juev::after{
+        content: "Juev";
+        visibility: visible;
+        display: block;
+    }
+
+    .mier::after{
+        content: "Mier";
+        visibility: visible;
+        display: block;
+    }
+
+    .mar::after{
+        content: "Mar";
+        visibility: visible;
+        display: block;
+    }
+
+    .lun::after{
+        content: "Lun";
+        visibility: visible;
+        display: block;
+    }
+  }
+
+  
+
+  
